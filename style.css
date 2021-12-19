@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex: 1;
+}
+
+.container {
+    flex: 1;
+    max-width: 900px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;  
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    column-gap: 70px;
+    row-gap: 30px;
+    margin: 30px 0;
+}
+
+.left  {
+    /* flex: 1 1 auto; */
+    max-width: 400px;
+}
+
+.right {
+    border: 1px solid blue;
+    /* flex: 1 1 auto; */
+    min-width: 400px;
+}
+
+.top-button, .bot-button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showboxes {
+    margin-bottom: 50px;
+    display: flex;
+    max-width: 900px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.showbox {
+    text-align: center;
+    max-width: 160px;
+    /* border: 1px solid blue */
+}
+
+.showboxes img{
+    min-width: 160px;
+}
+
+.showboxes p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.third-section {
+    text-align: center;
+    padding: 90px 120px;
+    background-color: turquoise;
+    font-size: 36px;
+    font-family: "light italic";
+    color: tomato;
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bottom-section {
+    padding: 50px 80px;
+}
+
+.last {
+    padding: 30px 0;
+    background-color: #3882f6;
+    margin: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 50px;
+}
+.last h3, .last p{
+    margin: 0;
+}
+
+.bot-button {
+    background-color:black;
+}
